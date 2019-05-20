@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1182CC22934BA30082EC81 /* DismissableAlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182C122934BA30082EC81 /* DismissableAlertHelper.swift */; };
+		DC1182CD22934BA30082EC81 /* RotatedLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182C322934BA30082EC81 /* RotatedLabelView.swift */; };
+		DC1182CE22934BA30082EC81 /* RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182C522934BA30082EC81 /* RoundCorner.swift */; };
+		DC1182CF22934BA30082EC81 /* StoryboardLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182C722934BA30082EC81 /* StoryboardLoader.swift */; };
+		DC1182D022934BA30082EC81 /* TextTagOverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182C922934BA30082EC81 /* TextTagOverlayWindow.swift */; };
+		DC1182D122934BA30082EC81 /* UINavigationController+Completion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182CB22934BA30082EC81 /* UINavigationController+Completion.swift */; };
+		DC1182DF22934BAE0082EC81 /* DismissableAlertHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182D422934BAD0082EC81 /* DismissableAlertHelperTests.swift */; };
+		DC1182E122934BAE0082EC81 /* RotatedLabelViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182D722934BAD0082EC81 /* RotatedLabelViewTests.swift */; };
+		DC1182E222934BAE0082EC81 /* RoundCornerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182D922934BAD0082EC81 /* RoundCornerTests.swift */; };
+		DC1182E322934BAE0082EC81 /* BuildInfoWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182DC22934BAD0082EC81 /* BuildInfoWindowTests.swift */; };
+		DC1182E422934BAE0082EC81 /* UINavigationController+CompletionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182DE22934BAD0082EC81 /* UINavigationController+CompletionTests.swift */; };
+		DC1182F022934CF20082EC81 /* DismissableAlertHelperMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182E822934CF20082EC81 /* DismissableAlertHelperMock.swift */; };
+		DC1182F122934CF20082EC81 /* NavigationControllerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182EA22934CF20082EC81 /* NavigationControllerSpy.swift */; };
+		DC1182F222934CF20082EC81 /* RefreshControlSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182EB22934CF20082EC81 /* RefreshControlSpy.swift */; };
+		DC1182F322934CF20082EC81 /* TableViewCellSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182EC22934CF20082EC81 /* TableViewCellSpy.swift */; };
+		DC1182F422934CF20082EC81 /* TableViewHeaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182ED22934CF20082EC81 /* TableViewHeaderSpy.swift */; };
+		DC1182F522934CF20082EC81 /* TableViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182EE22934CF20082EC81 /* TableViewSpy.swift */; };
+		DC1182F622934CF20082EC81 /* ViewControllerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182EF22934CF20082EC81 /* ViewControllerSpy.swift */; };
+		DC1182FA22934DF20082EC81 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182F922934DD80082EC81 /* String+Localized.swift */; };
+		DC1182FF22934E650082EC81 /* BDDTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182FB22934E650082EC81 /* BDDTestHelpers.swift */; };
+		DC11830222934E650082EC81 /* DummyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182FE22934E650082EC81 /* DummyError.swift */; };
+		DC11830522934FC90082EC81 /* StoryboardLoaderTests.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC11830422934FC90082EC81 /* StoryboardLoaderTests.storyboard */; };
+		DC118306229350F70082EC81 /* StoryboardLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11830322934F350082EC81 /* StoryboardLoaderTests.swift */; };
+		DC118308229354430082EC81 /* DismissableAlertHelperExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC118307229354430082EC81 /* DismissableAlertHelperExampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC1182B722934B1F0082EC81 /* SwiftHelpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHelpersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1182C122934BA30082EC81 /* DismissableAlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissableAlertHelper.swift; sourceTree = "<group>"; };
+		DC1182C322934BA30082EC81 /* RotatedLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedLabelView.swift; sourceTree = "<group>"; };
+		DC1182C522934BA30082EC81 /* RoundCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCorner.swift; sourceTree = "<group>"; };
+		DC1182C722934BA30082EC81 /* StoryboardLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardLoader.swift; sourceTree = "<group>"; };
+		DC1182C922934BA30082EC81 /* TextTagOverlayWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTagOverlayWindow.swift; sourceTree = "<group>"; };
+		DC1182CB22934BA30082EC81 /* UINavigationController+Completion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Completion.swift"; sourceTree = "<group>"; };
+		DC1182D422934BAD0082EC81 /* DismissableAlertHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissableAlertHelperTests.swift; sourceTree = "<group>"; };
+		DC1182D522934BAD0082EC81 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1182D722934BAD0082EC81 /* RotatedLabelViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedLabelViewTests.swift; sourceTree = "<group>"; };
+		DC1182D922934BAD0082EC81 /* RoundCornerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCornerTests.swift; sourceTree = "<group>"; };
+		DC1182DC22934BAD0082EC81 /* BuildInfoWindowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildInfoWindowTests.swift; sourceTree = "<group>"; };
+		DC1182DE22934BAD0082EC81 /* UINavigationController+CompletionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+CompletionTests.swift"; sourceTree = "<group>"; };
+		DC1182E822934CF20082EC81 /* DismissableAlertHelperMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissableAlertHelperMock.swift; sourceTree = "<group>"; };
+		DC1182EA22934CF20082EC81 /* NavigationControllerSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerSpy.swift; sourceTree = "<group>"; };
+		DC1182EB22934CF20082EC81 /* RefreshControlSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshControlSpy.swift; sourceTree = "<group>"; };
+		DC1182EC22934CF20082EC81 /* TableViewCellSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellSpy.swift; sourceTree = "<group>"; };
+		DC1182ED22934CF20082EC81 /* TableViewHeaderSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeaderSpy.swift; sourceTree = "<group>"; };
+		DC1182EE22934CF20082EC81 /* TableViewSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSpy.swift; sourceTree = "<group>"; };
+		DC1182EF22934CF20082EC81 /* ViewControllerSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSpy.swift; sourceTree = "<group>"; };
+		DC1182F922934DD80082EC81 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		DC1182FB22934E650082EC81 /* BDDTestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDDTestHelpers.swift; sourceTree = "<group>"; };
+		DC1182FE22934E650082EC81 /* DummyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyError.swift; sourceTree = "<group>"; };
+		DC11830322934F350082EC81 /* StoryboardLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardLoaderTests.swift; sourceTree = "<group>"; };
+		DC11830422934FC90082EC81 /* StoryboardLoaderTests.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardLoaderTests.storyboard; sourceTree = "<group>"; };
+		DC118307229354430082EC81 /* DismissableAlertHelperExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissableAlertHelperExampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1182B422934B1F0082EC81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1182A022934AC50082EC81 = {
+			isa = PBXGroup;
+			children = (
+				DC1182BF22934BA30082EC81 /* Sources */,
+				DC1182D222934BAD0082EC81 /* Tests */,
+				DC1182AA22934AC50082EC81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1182AA22934AC50082EC81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182B722934B1F0082EC81 /* SwiftHelpersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC1182BF22934BA30082EC81 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182C022934BA30082EC81 /* DismissableAlertHelper */,
+				DC1182C222934BA30082EC81 /* RotatedLabelView */,
+				DC1182C422934BA30082EC81 /* RoundCorner */,
+				DC1182C622934BA30082EC81 /* StoryboardLoader */,
+				DC1182F822934DC70082EC81 /* String+Localized */,
+				DC1182C822934BA30082EC81 /* TextTagOverlayWindow */,
+				DC1182CA22934BA30082EC81 /* UINavigationController+Completion */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DC1182C022934BA30082EC81 /* DismissableAlertHelper */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182C122934BA30082EC81 /* DismissableAlertHelper.swift */,
+			);
+			path = DismissableAlertHelper;
+			sourceTree = "<group>";
+		};
+		DC1182C222934BA30082EC81 /* RotatedLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182C322934BA30082EC81 /* RotatedLabelView.swift */,
+			);
+			path = RotatedLabelView;
+			sourceTree = "<group>";
+		};
+		DC1182C422934BA30082EC81 /* RoundCorner */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182C522934BA30082EC81 /* RoundCorner.swift */,
+			);
+			path = RoundCorner;
+			sourceTree = "<group>";
+		};
+		DC1182C622934BA30082EC81 /* StoryboardLoader */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182C722934BA30082EC81 /* StoryboardLoader.swift */,
+			);
+			path = StoryboardLoader;
+			sourceTree = "<group>";
+		};
+		DC1182C822934BA30082EC81 /* TextTagOverlayWindow */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182C922934BA30082EC81 /* TextTagOverlayWindow.swift */,
+			);
+			path = TextTagOverlayWindow;
+			sourceTree = "<group>";
+		};
+		DC1182CA22934BA30082EC81 /* UINavigationController+Completion */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182CB22934BA30082EC81 /* UINavigationController+Completion.swift */,
+			);
+			path = "UINavigationController+Completion";
+			sourceTree = "<group>";
+		};
+		DC1182D222934BAD0082EC81 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182D522934BAD0082EC81 /* Info.plist */,
+				DC1182D322934BAD0082EC81 /* DismissableAlertHelper */,
+				DC1182D622934BAD0082EC81 /* RotatedLabelView */,
+				DC1182D822934BAD0082EC81 /* RoundCorner */,
+				DC1182DA22934BAD0082EC81 /* StoryboardLoader */,
+				DC1182DB22934BAD0082EC81 /* TextTagOverlayWindow */,
+				DC1182E622934CF20082EC81 /* TestDoubles */,
+				DC1182E522934C300082EC81 /* TestHelpers */,
+				DC1182DD22934BAD0082EC81 /* UINavigationController+Completion */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DC1182D322934BAD0082EC81 /* DismissableAlertHelper */ = {
+			isa = PBXGroup;
+			children = (
+				DC118307229354430082EC81 /* DismissableAlertHelperExampleTests.swift */,
+				DC1182D422934BAD0082EC81 /* DismissableAlertHelperTests.swift */,
+			);
+			path = DismissableAlertHelper;
+			sourceTree = "<group>";
+		};
+		DC1182D622934BAD0082EC81 /* RotatedLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182D722934BAD0082EC81 /* RotatedLabelViewTests.swift */,
+			);
+			path = RotatedLabelView;
+			sourceTree = "<group>";
+		};
+		DC1182D822934BAD0082EC81 /* RoundCorner */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182D922934BAD0082EC81 /* RoundCornerTests.swift */,
+			);
+			path = RoundCorner;
+			sourceTree = "<group>";
+		};
+		DC1182DA22934BAD0082EC81 /* StoryboardLoader */ = {
+			isa = PBXGroup;
+			children = (
+				DC11830322934F350082EC81 /* StoryboardLoaderTests.swift */,
+				DC11830422934FC90082EC81 /* StoryboardLoaderTests.storyboard */,
+			);
+			path = StoryboardLoader;
+			sourceTree = "<group>";
+		};
+		DC1182DB22934BAD0082EC81 /* TextTagOverlayWindow */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182DC22934BAD0082EC81 /* BuildInfoWindowTests.swift */,
+			);
+			path = TextTagOverlayWindow;
+			sourceTree = "<group>";
+		};
+		DC1182DD22934BAD0082EC81 /* UINavigationController+Completion */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182DE22934BAD0082EC81 /* UINavigationController+CompletionTests.swift */,
+			);
+			path = "UINavigationController+Completion";
+			sourceTree = "<group>";
+		};
+		DC1182E522934C300082EC81 /* TestHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182FB22934E650082EC81 /* BDDTestHelpers.swift */,
+				DC1182FE22934E650082EC81 /* DummyError.swift */,
+			);
+			path = TestHelpers;
+			sourceTree = "<group>";
+		};
+		DC1182E622934CF20082EC81 /* TestDoubles */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182E722934CF20082EC81 /* DismissableAlertHelper */,
+				DC1182E922934CF20082EC81 /* UIKit */,
+			);
+			path = TestDoubles;
+			sourceTree = "<group>";
+		};
+		DC1182E722934CF20082EC81 /* DismissableAlertHelper */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182E822934CF20082EC81 /* DismissableAlertHelperMock.swift */,
+			);
+			path = DismissableAlertHelper;
+			sourceTree = "<group>";
+		};
+		DC1182E922934CF20082EC81 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182EA22934CF20082EC81 /* NavigationControllerSpy.swift */,
+				DC1182EB22934CF20082EC81 /* RefreshControlSpy.swift */,
+				DC1182EC22934CF20082EC81 /* TableViewCellSpy.swift */,
+				DC1182ED22934CF20082EC81 /* TableViewHeaderSpy.swift */,
+				DC1182EE22934CF20082EC81 /* TableViewSpy.swift */,
+				DC1182EF22934CF20082EC81 /* ViewControllerSpy.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		DC1182F822934DC70082EC81 /* String+Localized */ = {
+			isa = PBXGroup;
+			children = (
+				DC1182F922934DD80082EC81 /* String+Localized.swift */,
+			);
+			path = "String+Localized";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC1182B622934B1F0082EC81 /* SwiftHelpersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1182BE22934B1F0082EC81 /* Build configuration list for PBXNativeTarget "SwiftHelpersTests" */;
+			buildPhases = (
+				DC1182B322934B1F0082EC81 /* Sources */,
+				DC1182B422934B1F0082EC81 /* Frameworks */,
+				DC1182B522934B1F0082EC81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftHelpersTests;
+			productName = SwiftHelpersTests;
+			productReference = DC1182B722934B1F0082EC81 /* SwiftHelpersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC1182A122934AC50082EC81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "VML, Inc.";
+				TargetAttributes = {
+					DC1182B622934B1F0082EC81 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = DC1182A422934AC50082EC81 /* Build configuration list for PBXProject "SwiftHelpers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC1182A022934AC50082EC81;
+			productRefGroup = DC1182AA22934AC50082EC81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC1182B622934B1F0082EC81 /* SwiftHelpersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC1182B522934B1F0082EC81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC11830522934FC90082EC81 /* StoryboardLoaderTests.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC1182B322934B1F0082EC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1182FF22934E650082EC81 /* BDDTestHelpers.swift in Sources */,
+				DC118306229350F70082EC81 /* StoryboardLoaderTests.swift in Sources */,
+				DC1182CC22934BA30082EC81 /* DismissableAlertHelper.swift in Sources */,
+				DC1182D122934BA30082EC81 /* UINavigationController+Completion.swift in Sources */,
+				DC1182F022934CF20082EC81 /* DismissableAlertHelperMock.swift in Sources */,
+				DC1182F322934CF20082EC81 /* TableViewCellSpy.swift in Sources */,
+				DC1182CF22934BA30082EC81 /* StoryboardLoader.swift in Sources */,
+				DC1182F622934CF20082EC81 /* ViewControllerSpy.swift in Sources */,
+				DC1182F122934CF20082EC81 /* NavigationControllerSpy.swift in Sources */,
+				DC1182E222934BAE0082EC81 /* RoundCornerTests.swift in Sources */,
+				DC1182CD22934BA30082EC81 /* RotatedLabelView.swift in Sources */,
+				DC1182D022934BA30082EC81 /* TextTagOverlayWindow.swift in Sources */,
+				DC1182F222934CF20082EC81 /* RefreshControlSpy.swift in Sources */,
+				DC1182CE22934BA30082EC81 /* RoundCorner.swift in Sources */,
+				DC118308229354430082EC81 /* DismissableAlertHelperExampleTests.swift in Sources */,
+				DC1182F422934CF20082EC81 /* TableViewHeaderSpy.swift in Sources */,
+				DC1182DF22934BAE0082EC81 /* DismissableAlertHelperTests.swift in Sources */,
+				DC1182F522934CF20082EC81 /* TableViewSpy.swift in Sources */,
+				DC1182E322934BAE0082EC81 /* BuildInfoWindowTests.swift in Sources */,
+				DC1182FA22934DF20082EC81 /* String+Localized.swift in Sources */,
+				DC11830222934E650082EC81 /* DummyError.swift in Sources */,
+				DC1182E122934BAE0082EC81 /* RotatedLabelViewTests.swift in Sources */,
+				DC1182E422934BAE0082EC81 /* UINavigationController+CompletionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC1182AE22934AC50082EC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC1182AF22934AC50082EC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC1182BC22934B1F0082EC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VL6HBXSLT9;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vml.SwiftHelpersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC1182BD22934B1F0082EC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VL6HBXSLT9;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vml.SwiftHelpersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC1182A422934AC50082EC81 /* Build configuration list for PBXProject "SwiftHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1182AE22934AC50082EC81 /* Debug */,
+				DC1182AF22934AC50082EC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1182BE22934B1F0082EC81 /* Build configuration list for PBXNativeTarget "SwiftHelpersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1182BC22934B1F0082EC81 /* Debug */,
+				DC1182BD22934B1F0082EC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC1182A122934AC50082EC81 /* Project object */;
+}
