@@ -16,7 +16,7 @@
 		DC1182DF22934BAE0082EC81 /* DismissableAlertHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182D422934BAD0082EC81 /* DismissableAlertHelperTests.swift */; };
 		DC1182E122934BAE0082EC81 /* RotatedLabelViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182D722934BAD0082EC81 /* RotatedLabelViewTests.swift */; };
 		DC1182E222934BAE0082EC81 /* RoundCornerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182D922934BAD0082EC81 /* RoundCornerTests.swift */; };
-		DC1182E322934BAE0082EC81 /* BuildInfoWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182DC22934BAD0082EC81 /* BuildInfoWindowTests.swift */; };
+		DC1182E322934BAE0082EC81 /* TextTagOverlayWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182DC22934BAD0082EC81 /* TextTagOverlayWindowTests.swift */; };
 		DC1182E422934BAE0082EC81 /* UINavigationController+CompletionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182DE22934BAD0082EC81 /* UINavigationController+CompletionTests.swift */; };
 		DC1182F022934CF20082EC81 /* DismissableAlertHelperMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182E822934CF20082EC81 /* DismissableAlertHelperMock.swift */; };
 		DC1182F122934CF20082EC81 /* NavigationControllerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1182EA22934CF20082EC81 /* NavigationControllerSpy.swift */; };
@@ -45,7 +45,7 @@
 		DC1182D522934BAD0082EC81 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC1182D722934BAD0082EC81 /* RotatedLabelViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedLabelViewTests.swift; sourceTree = "<group>"; };
 		DC1182D922934BAD0082EC81 /* RoundCornerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCornerTests.swift; sourceTree = "<group>"; };
-		DC1182DC22934BAD0082EC81 /* BuildInfoWindowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildInfoWindowTests.swift; sourceTree = "<group>"; };
+		DC1182DC22934BAD0082EC81 /* TextTagOverlayWindowTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTagOverlayWindowTests.swift; sourceTree = "<group>"; };
 		DC1182DE22934BAD0082EC81 /* UINavigationController+CompletionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+CompletionTests.swift"; sourceTree = "<group>"; };
 		DC1182E822934CF20082EC81 /* DismissableAlertHelperMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissableAlertHelperMock.swift; sourceTree = "<group>"; };
 		DC1182EA22934CF20082EC81 /* NavigationControllerSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerSpy.swift; sourceTree = "<group>"; };
@@ -205,7 +205,7 @@
 		DC1182DB22934BAD0082EC81 /* TextTagOverlayWindow */ = {
 			isa = PBXGroup;
 			children = (
-				DC1182DC22934BAD0082EC81 /* BuildInfoWindowTests.swift */,
+				DC1182DC22934BAD0082EC81 /* TextTagOverlayWindowTests.swift */,
 			);
 			path = TextTagOverlayWindow;
 			sourceTree = "<group>";
@@ -351,7 +351,7 @@
 				DC1182F422934CF20082EC81 /* TableViewHeaderSpy.swift in Sources */,
 				DC1182DF22934BAE0082EC81 /* DismissableAlertHelperTests.swift in Sources */,
 				DC1182F522934CF20082EC81 /* TableViewSpy.swift in Sources */,
-				DC1182E322934BAE0082EC81 /* BuildInfoWindowTests.swift in Sources */,
+				DC1182E322934BAE0082EC81 /* TextTagOverlayWindowTests.swift in Sources */,
 				DC1182FA22934DF20082EC81 /* String+Localized.swift in Sources */,
 				DC11830222934E650082EC81 /* DummyError.swift in Sources */,
 				DC1182E122934BAE0082EC81 /* RotatedLabelViewTests.swift in Sources */,
