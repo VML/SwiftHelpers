@@ -55,7 +55,7 @@ class RotatedLabelViewTests: XCTestCase {
                 let rotationValue = subject.textLayer
                     .value(forKeyPath: "transform.rotation") as! CGFloat
 
-                AssertRoughlyEqual(rotationValue, 1.5)
+                AssertRoughlyEqual(rotationValue, -1.5)
             }
         }
 
@@ -70,7 +70,7 @@ class RotatedLabelViewTests: XCTestCase {
                 let rotationValue = subject.textLayer
                     .value(forKeyPath: "transform.rotation") as! CGFloat
 
-                AssertRoughlyEqual(rotationValue, -1.5)
+                AssertRoughlyEqual(rotationValue, 1.5)
             }
         }
 

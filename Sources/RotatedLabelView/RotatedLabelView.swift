@@ -123,7 +123,7 @@ public class RotatedLabelView: UIView {
             layer.addSublayer(textLayer)
         }
 
-        let rotation: CGFloat = (textDirection == .fromBottom) ? 2 : -2
+        let rotation: CGFloat = (textDirection == .fromBottom) ? -2 : 2
 
         let textFrame = CGRect(x: layer.bounds.origin.x,
                                y: (layer.bounds.height - textSize.width)/2,
